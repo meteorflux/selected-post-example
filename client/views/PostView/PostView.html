@@ -1,0 +1,6 @@
+<template name="PostView">
+  <h2>List of Posts</h2>
+  {{#each postList}}
+    <button class="post" data-id="{{_id}}">{{name}}</button><br />
+  {{/each}}
+</template>
